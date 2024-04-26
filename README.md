@@ -8,9 +8,12 @@
 # See demo video [here](https://youtu.be/RnYWvHqkous)
 
 <h2> Problem Statement </h2> 
+
 There is a growing need for technology that enhances communication and caters to diverse user needs. Current video conferencing and chat platforms often lack rich nonverbal cues, which can lead to misunderstandings or hinder emotional expression. This project proposes a lightweight real-time system that analyzes a live webcam feed and overlays corresponding emojis based on the user's facial expressions.
+
 ---
 <h2> Solution </h2>
+
 Run this application on your system:
 
 Download this repository:
@@ -33,8 +36,12 @@ Run the code:
 
 ---
 <h2> Technology Stack </h2>
-<li>Python</li>
-<li>Streamlit</li>
+
+* Python
+
+* TensorFlow
+
+* OpenCV 
 
 <h2> System Design: </h2>
 
@@ -55,7 +62,7 @@ Features:
 
 Drawbacks:
 
-* When head is tilted sideways the face detection won't work, I think this is a problem with Haarcascade Classifier.
+* When head is tilted sideways the face detection won't work, this is a problem with Haarcascade Classifier.
 
 * Even though the system is very stable most of the time, the system randomly fails for unknown reasons.
 
@@ -64,6 +71,8 @@ Drawbacks:
 ---
 <h2> Team Details </h2>
 
-Ajay T Shaju <br>
-Afna Ayshu Jaffin
- <!--https://youtu.be/RnYWvHqkous -->
+Ajay T Shaju : [LinkedIn](https://www.linkedin.com/in/ajay-t-shaju/)  |  [GitHub](https://github.com/004Ajay)
+
+<br>
+
+Afna Ayshu Jaffin : [LinkedIn](https://www.linkedin.com/in/afna-ayshu-jaffin-02b38b201/)  |  [GitHub](https://github.com/afnaayshu)
