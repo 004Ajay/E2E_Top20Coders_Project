@@ -5,7 +5,22 @@
 <img src="Assets/Emotion2Emoji.jpg" title = "E2E Title Picture" height='220'></p>
 
 ---
+# See demo video [here](https://youtu.be/RnYWvHqkous)
 
+<h2> Problem Statement </h2> 
+There is a growing need for technology that enhances communication and caters to diverse user needs. Current video conferencing and chat platforms often lack rich nonverbal cues, which can lead to misunderstandings or hinder emotional expression. This project proposes a lightweight real-time system that analyzes a live webcam feed and overlays corresponding emojis based on the user's facial expressions.
+---
+<h2> Solution </h2>
+Run this application on your system:
+
+Download this repository:
+
+    git clone https://github.com/004Ajay/Emotion2Emoji.git
+
+Move to the project folder:
+
+    cd Emotion2Emoji
+    
 Install required libraries:
 
     pip install tensorflow, deepface, numpy, opencv-python
@@ -17,8 +32,11 @@ Run the code:
     python main.py
 
 ---
+<h2> Technology Stack </h2>
+<li>Python</li>
+<li>Streamlit</li>
 
-System Design:
+<h2> System Design: </h2>
 
 <p align="center">
 <img src="Assets/E2E Diagram.png" title = "E2E Title Picture" height='900'></p>
@@ -44,7 +62,4 @@ Drawbacks:
 * The system works perfectly when there is a single face in detection, but fails to give the correct emotions when there are multiple faces. Anyway the system show equal number of emojis as number of faces in detection.
 
 ---
-
-See demo video [here](https://github.com/004Ajay/Emotion2Emoji/blob/main/Assets/Emotion2Emoji_Video.mp4)
-
-<!-- https://youtu.be/RnYWvHqkous -->
+ <!--https://youtu.be/RnYWvHqkous -->
