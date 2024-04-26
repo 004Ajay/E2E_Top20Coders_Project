@@ -62,4 +62,8 @@ Drawbacks:
 * The system works perfectly when there is a single face in detection, but fails to give the correct emotions when there are multiple faces. Anyway the system show equal number of emojis as number of faces in detection.
 
 ---
+<h2> Team Details </h2>
+
+Ajay T Shaju <br>
+Afna Ayshu Jaffin
  <!--https://youtu.be/RnYWvHqkous -->
